@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travelista - Tour Planning Company</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Welcome to <span>Travelista</span></h1>
+        <nav>
+            <ul>
+                <li><a href="#registration">Registration</a></li>
+                <li><a href="#packages">Packages</a></li>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="#support">Support</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="destinations">
+            <h2>Explore Our Destinations</h2>
+            <div class="gallery">
+                <img src="shimla.png" alt="Shimla" >
+                <img src="manali.png" alt="Manali" >
+                <img src="Rajasthan.png" alt="Rajasthan" >
+                <img src="Pune.png" alt="Pune" >
+                <!-- Add more images for other cities -->
+            </div>
+        </section>
+
+        <section id="registration">
+            <h2>Registration</h2>
+            <form action="#">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required><br><br>
+                <label for="address">Address:</label>
+                <input type="text" id="address" name="address" required><br><br>
+                <label for="phone">Phone Number:</label>
+                <input type="tel" id="phone" name="phone" required><br><br>
+                <button type="submit">Submit</button>
+            </form>
+        </section>
+
+        <section id="packages">
+            <h2>Packages</h2>
+            <div class="packages">
+                <div class="package">
+                    <h3>Luxury Package</h3>
+                    <p>Amount: $20,000</p>
+                    <button>Book Now</button>
+                </div>
+                <div class="package">
+                    <h3>Deluxe Package</h3>
+                    <p>Amount: $30,000</p>
+                    <button>Book Now</button>
+                </div>
+                <div class="package">
+                    <h3>Super Deluxe Package</h3>
+                    <p>Amount: $50,000</p>
+                    <button>Book Now</button>
+                </div>
+                <div class="package">
+                    <h3>Simple Package</h3>
+                    <p>Amount: $10,000</p>
+                    <button>Book Now</button>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        &copy; 2024 Travelista. All rights reserved.
+    </footer>
+</body>
+</html>
